@@ -4,8 +4,8 @@ import { Button } from "../../libs/shadcn/Button";
 import image from "./../../assets/images/home.png";
 export const Home = () => {
   return (
-    <div className="min-h-[calc(100vh-72px)] flex items-center md:justify-between justify-center mt-[72px] overflow-hidden relative">
-      <div className="max-w-[37rem] md:pl-36 md:mr-7 space-y-6">
+    <div className="min-h-[calc(100vh-72px)] flex items-center md:justify-between justify-center mt-[72px] overflow-hidden relative ">
+      <div className="max-w-[37rem] md:pl-36 md:mr-7 space-y-6 px-4">
         <h1 className="font-semibold  text-black-10 lg:text-5xl text-3xl ">
           Find, book and rent a car{" "}
           <span className="text-blue-500">Easily</span>

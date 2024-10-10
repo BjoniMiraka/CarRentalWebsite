@@ -7,7 +7,7 @@ export const Testimonials = () => {
         <p className="uppercase px-8 py-4 bg-blue-100 bg-opacity-20 text-blue-100  rounded-lg">
           TESTIMONIALS
         </p>
-        <p className="text-4xl ">What people say about us?</p>
+        <p className="md:text-4xl text-2xl">What people say about us?</p>
       </div>
       <InfiniteCarousel className="gap-6">
         {Array.from({ length: 1 }).map((_, index) => (
