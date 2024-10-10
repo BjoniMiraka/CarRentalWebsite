@@ -19,7 +19,7 @@ const navigationItems = [
 
 export const Navigation = () => {
   return (
-    <nav className="px-40 fixed top-0 py-6 z-20 bg-white w-full max-w-[1500px]">
+    <nav className="md:px-40 px-20 fixed top-0 py-6 z-20 bg-white w-full max-w-[1500px]">
       <ul className="flex justify-between items-center">
         <NavLink to={routes.home} className="flex gap-2 ">
           <Logo />

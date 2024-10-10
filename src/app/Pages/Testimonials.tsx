@@ -2,7 +2,7 @@ import { InfiniteCarousel } from "../../components/InfiniteCarousel";
 import { TestimonialCard } from "../../components/TestimonialCard";
 export const Testimonials = () => {
   return (
-    <div className="space-y-16 bg-blue-50 py-20 px-10 rounded-lg">
+    <div className="space-y-16 bg-blue-50 py-20 rounded-lg">
       <div className="flex flex-col items-center justify-center gap-6">
         <p className="uppercase px-8 py-4 bg-blue-100 bg-opacity-20 text-blue-100  rounded-lg">
           TESTIMONIALS
