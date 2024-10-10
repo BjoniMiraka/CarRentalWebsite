@@ -14,7 +14,7 @@ export const Home = () => {
           Find the right car, at the right price, for any trip. Let’s get you
           moving!
         </p>
-        <Button className="gap-2 text-lg p-8">
+        <Button className="gap-2 text-lg p-8 md:w-auto w-full">
           Lets Ride <Car size="20" />
         </Button>
       </div>
