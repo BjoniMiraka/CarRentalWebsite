@@ -58,7 +58,7 @@ export const Footer = () => {
         </div>
         <div className="space-y-4">
           <p className="text-white">Follow Us</p>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 items-center">
             {mediaLinks.map((item) => (
               <a key={item.link} href={item.link} className="text-white">
                 <item.icon size={24} />
